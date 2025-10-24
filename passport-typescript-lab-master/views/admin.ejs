@@ -1,0 +1,24 @@
+<h1>Admin Dashboard</h1>
+<table>
+  <tr>
+    <th>Session ID</th>
+    <th>User ID</th>
+    <th>Revoke</th>
+  </tr>
+
+  <% for (let i=0; i < sessions.length; i++) { %>
+    <tr>
+      <td>
+        <%= sessions[i].sid %>
+      </td>
+      <td>
+        <%= sessions[i].uid %>
+      </td>
+      <td>
+        <form method="POST" action="/admin/revoke/<%=sessions[i].sid%>">
+          <button type="submit">Revoke</button>
+      </td>
+      </form>
+    </tr>
+    <% } %>
+</table>
