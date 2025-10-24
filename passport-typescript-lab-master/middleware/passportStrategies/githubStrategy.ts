@@ -28,7 +28,7 @@ const githubStrategy: GitHubStrategy = new GitHubStrategy({
         catch {
             data = { accounts: [] }
         }
-        let user = data.accounts.find(acc => acc.id + "git" === profile.id);
+        let user = data.accounts.find(acc => acc.id === profile.id + "git");
 
         if (!user) {
             const userProfile = {
