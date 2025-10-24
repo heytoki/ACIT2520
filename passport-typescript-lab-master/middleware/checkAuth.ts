@@ -37,7 +37,7 @@ export async function getAllSessions(req: Request): Promise<{ sid: string, userI
           return { sid, uid }
         })
         res(allSessions)
-      }) // sorry chatgpt'd this part
+      }) // sorry chatgpt'd the mapping part
     }
   })
 }
