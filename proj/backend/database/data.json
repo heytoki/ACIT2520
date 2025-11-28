@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "da7b245e-191a-4e30-9a57-3f4ed6db0f06",
+      "username": "avatarUser",
+      "password": "pass",
+      "profilePicture": "https://example.com/avatar.png"
+    },
+    {
+      "id": "7e508457-a011-4d54-a784-1253ac25ed2e",
+      "username": "hi",
+      "password": "there",
+      "profilePicture": ""
+    }
+  ],
+  "tips": [
+    {
+      "id": "7ae04e3b-dcf2-4d28-8793-6dde697dbe57",
+      "title": "Tip with avatar",
+      "userId": "da7b245e-191a-4e30-9a57-3f4ed6db0f06"
+    },
+    {
+      "id": "f58e01a3-842f-434f-ba8f-b3c3082c37e7",
+      "title": "asdasdasd",
+      "userId": "f4defda1-b9c1-432f-8da6-67f3130e8254"
+    },
+    {
+      "id": "e02409de-2214-465a-887d-bdcc88263631",
+      "title": "asdasdasd",
+      "userId": "7e508457-a011-4d54-a784-1253ac25ed2e"
+    }
+  ]
+}
